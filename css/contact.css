@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+
+:root{
+    --main-bg-color: rgb(214, 75, 214) ;
+    --font1:  'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+
+:root{
+    --main-bg-color: purple ;
+    --font1:  'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+
+
+
+.contact-content{
+    display: block;
+    height: 395px;
+    height: 80vh;
+       background-color: rgb(235, 225, 212);
+    max-width: 80vw;
+    margin-top: 32px;      /*inorder to make more space between the search box and content box*/
+    margin: 32px 130px;
+    padding: 9px;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;         /*in order to avoid the scroll bar*/
+    }
+
+    
+.contact-content::after{
+    content: "";
+    background-image: url('../img/onlineArticles.svg');
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: inherit;
+    opacity: 0.15;
+z-index: -1 ;
+
+}
+
+.hoverh{
+padding: 0.6rem;
+border-radius: 0.2rem;
+
+
+}
+
+.hoverh:hover{
+
+    background-color: var(--main-bg-color);
+
+}
+
+
+.form-box input, textarea{
+
+width: 52vw;
+padding: 10px 6px;
+margin: 7px;
+
+}

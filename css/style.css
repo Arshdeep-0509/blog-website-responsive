@@ -139,7 +139,8 @@ display: flex;
 justify-content: center;
     
     flex-direction: column;   /*converting rows into column*/
-padding: 49px;    
+padding: 49px; 
+z-index: 1;   
 }
 
 
