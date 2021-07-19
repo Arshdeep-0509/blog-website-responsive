@@ -24,28 +24,29 @@
 
 .contact-content{
     display: block;
-    height: 395px;
-    height: 80vh;
+    height: 100vh;
        background-color: rgb(235, 225, 212);
-    max-width: 80vw;
+    max-width: 90vw;
     margin-top: 32px;      /*inorder to make more space between the search box and content box*/
-    margin: 32px 130px;
+    /* margin: 32px 130px; */
     padding: 9px;
     position: relative;
     justify-content: center;
     overflow: hidden;         /*in order to avoid the scroll bar*/
+    /* left: 150px; */
     }
 
     
 .contact-content::after{
     content: "";
-    background-image: url('../img/onlineArticles.svg');
+    background-image: url("../img/onlineArticles.svg");
     position: absolute;
     width: 100%;
     top: 0;
     height: inherit;
     opacity: 0.15;
 z-index: -1 ;
+border-radius: 12px;
 
 }
 

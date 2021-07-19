@@ -3,7 +3,7 @@
 
 
 :root{
-    --main-bg-color: purple ;
+    --main-bg-color:  rgb(228, 192, 125);
     --font1:  'Baloo Bhaina 2', cursive;
     --font2: 'Roboto', sans-serif;
 }
@@ -28,7 +28,7 @@
 
 /* nav bar*/
 .navigation{
-    height: 95px;
+    /* height: 95px; */
  /* background-color: bisque;  */
 display: flex;
 justify-content: space-between ;             /* the space will be created between 2 items  */
@@ -71,7 +71,8 @@ font-family: var(--font2);
 }
 .nav-left ul li a:hover{
 
-color: var(--main-bg-color);
+color: rgb(228, 192, 125);
+
 font-weight: bolder;
 }
 
@@ -108,8 +109,8 @@ padding-top: 4px;
 
 .content{
 display: flex;
-height: 395px;
-   background-color: rgb(236, 227, 211);
+height: 100%;
+   background-color: rgb(241, 233, 219);
 max-width: 80vw;
 margin-top: 32px;      /*inorder to make more space between the search box and content box*/
 margin: 32px 130px;
@@ -168,11 +169,32 @@ justify-content: center;
 
 .home-articles{
 max-width: 180vh;
-  background-color: rgb(231, 202, 202);  
+  background-color: rgb(252, 225, 225);  
 margin: auto;
 padding-top: 12px;
+
+position: relative;
+
 }
 
+
+.year-box{
+
+position: absolute;
+width: 234px;
+height: 255px;
+/* background-color: red; */
+right: 240px;
+top: 100px;
+font-size: 15px;
+
+}
+
+.year-box div{
+
+    margin: 12px 0px;
+
+}
 
 .home-article{
 
@@ -239,5 +261,8 @@ color: white;
 
 .hrspace{
 
+    margin: 15px;
+}
+img{
     margin: 15px;
 }
